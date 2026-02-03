@@ -33,7 +33,7 @@ The class implements 2D vector math using the following formulas:
     ```
 2. **Run the Script:**
     ```bash
-    python DataType creation.py
+    python "DataType creation.py"
     ```
 3. **Follow the Prompts:**
     * Select an operation from the menu (1-9).
@@ -41,4 +41,4 @@ The class implements 2D vector math using the following formulas:
     * View the calculated result (e.g., Magnitude, Unit Vector, or Projection).
 
 ---
-**Part of the Python Mathematical Toolkit Series** *Built with ❤️ by [moizcoder01](https://github.com/moizcoder01)*
+**Part of the Python Mathematical Toolkit Series Fraction DataType** *Built with ❤️ by [moizcoder01][https://github.com/moizcoder01/Python-Mathematical-Toolkit-Fraction-Data-Type.git)
