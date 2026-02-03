@@ -12,7 +12,7 @@ A custom Python implementation of a **2D Vector** data type designed to handle l
 
 ## 📐 Mathematical Logic
 
-The class implements 2D vector math using the following formulas:
+The class implements 2D vector math ($v = x\mathbf{i} + y\mathbf{j}$) using the following formulas:
 
 | Operation | Python Method / Logic | Formula Used |
 | :--- | :--- | :--- |
