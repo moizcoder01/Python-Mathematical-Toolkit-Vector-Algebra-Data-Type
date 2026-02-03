@@ -29,7 +29,7 @@ The class implements 2D vector math using the following formulas:
 
 1. **Clone the Repository:**
     ```bash
-    git clone [https://github.com/moizcoder01/Python-Mathematical-Toolkit-Vector-Algebra-DataType.git](https://github.com/moizcoder01/Python-Mathematical-Toolkit-Vector-Algebra-DataType.git)
+    git clone [https://github.com/moizcoder01/Python-Mathematical-Toolkit-Vector-Algebra-Data-Type.git)
     ```
 2. **Run the Script:**
     ```bash
