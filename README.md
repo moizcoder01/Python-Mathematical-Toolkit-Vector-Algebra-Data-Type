@@ -14,13 +14,16 @@ A custom Python implementation of a **2D Vector** data type designed to handle l
 
 The class implements 2D vector math using the following formulas:
 
-Operation	Python Method / Logic	Formula Used
-Magnitude	v.magnitude()	(x**2 + y**2)**0.5
-Addition	v1.vector_addition(v2)	Vector(x1+x2, y1+y2)
-Dot Product	v1.dot_product(v2)	(x1*x2) + (y1*y2)
-Unit Vector	v.unit_vector()	Vector(x/mag, y/mag)
-Angle	v1.angle_bw_vectors(v2)	acos(dot_prod / (mag1 * mag2))
-Projection	v1.vector_projection(v2)	(dot_prod / mag2**2) * v2
+| Operation | Python Method / Logic | Formula Used |
+| :--- | :--- | :--- |
+| **Magnitude** | `v.magnitude()` | `(x**2 + y**2)**0.5` |
+| **Addition** | `v1.vector_addition(v2)` | `Vector(x1+x2, y1+y2)` |
+| **Subtraction** | `v1.vector_subtraction(v2)` | `Vector(x1-x2, y1-y2)` |
+| **Dot Product** | `v1.dot_product(v2)` | `(x1*x2) + (y1*y2)` |
+| **Unit Vector** | `v.unit_vector()` | `Vector(x/mag, y/mag)` |
+| **Angle** | `v1.angle_bw_vectors(v2)` | `acos(dot_prod / (mag1 * mag2))` |
+| **Orthogonality** | `v1.orthogonal(v2)` | `True if dot_product == 0` |
+| **Projection** | `v1.vector_projection(v2)` | `(dot_prod / mag2**2) * v2`
 
 ## 💻 How to Use
 
